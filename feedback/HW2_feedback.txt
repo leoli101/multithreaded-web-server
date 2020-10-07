@@ -1,0 +1,33 @@
+#############################
+# CSE 333 19su HW2 Feedback #
+#############################
+
+UW NetID: yh0608
+
+Test Suite: 270.0/270.0
+  (-0.0) Correct
+
+Valgrind: 5.0/5.0
+  (-0.0) No valgrind warnings
+
+clint: 5.0/5.0
+  (-0.0) No clint warnings
+
+Modularity: 4.0/5.0
+  (-1.0) Re-implemented the functionality of DTLookupDocumentName instead of calling it in DTRegisterDocumentName
+
+Blending with Starter Code: 5.0/5.0
+  (-0.0) Correct
+
+Robustness and Error Checking: 10.0/10.0
+  (-0.0) Correct
+
+Comments: 5.0/5.0
+  (-0.0) Correct
+
+Other Style Issues: 5.0/5.0
+  (-0.0) Correct
+
+Searchshell: 18.0/20.0
+  (-2.0) searchshell is case sensitive (should make everything lowercase so the case of the input doesn't affect the result)
+

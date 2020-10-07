@@ -1,0 +1,34 @@
+#############################
+# CSE 333 19su HW3 Feedback #
+#############################
+
+UW NetID: yh0608
+
+Test Suite: 180.0/180.0
+  (-0.0) Correct
+
+Valgrind: 5.0/5.0
+  (-0.0) No valgrind warnings
+
+clint: 5.0/5.0
+  (-0.0) No clint warnings
+
+Modularity: 5.0/5.0
+  (-0.0) [fileindexwriter.cc] Calculates checksum reading one byte at a time. Read more bytes into a buffer instead of calling fread for every byte.
+  [Comments:] Instead of calling fread for every byte, you can fread multiple bytes then fold each byte.
+
+Robustness and Error Checking: 10.0/10.0
+  (-0.0) Correct
+
+Comments: 5.0/5.0
+  (-0.0) Do not leave commented out code (e.g. printf statements) in submission.
+
+Other Style Issues: 5.0/5.0
+  (-0.0) Correct
+
+Other Style Issues: 20.0/20.0
+  (-0.0) Correct
+
+Other Style Issues: 20.0/20.0
+  (-0.0) Correct
+

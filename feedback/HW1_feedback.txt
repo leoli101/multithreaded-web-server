@@ -1,0 +1,32 @@
+#############################
+# CSE 333 19su HW1 Feedback #
+#############################
+
+UW NetID: yh0608
+
+Test Suite: 230.0/230.0
+  (-0.0) Correct
+
+Valgrind: 5.0/5.0
+  (-0.0) No valgrind warnings
+
+clint: 5.0/5.0
+  (-0.0) No clint warnings
+
+Modularity: 8.0/10.0
+  (-2.0) HT helper function does not properly factor out common code. E.g. Only a remove function; or the helper just advances an iterator.
+
+Blending with Starter Code: 4.0/5.0
+  (-1.0) HT helper function not declared at top of file (definition only).
+
+Robustness and Error Checking: 13.0/15.0
+  (-1.0) [InsertHashTable]: Removing + adding a node instead of replacing value in-place in InsertHashTable when the key already exists, if there is a possible code path left open where the hashtable ends up with fewer elements after insert returns.
+  (-1.0) [HT Insert/Find/Remove Functionality] Leaves HT in inconsistent state due to masking an error or not handling it properly. E.g. Decrementing num_elements then failing to remove the element.
+
+Comments: 2.0/5.0
+  (-2.0) No comment on HT helper function documenting the behavior and return value(s)
+  (-1.0) HT helper function comment should go with the declaration at the top of the file.
+
+Other Style Issues: 5.0/5.0
+  (-0.0) If you are copying all of the fields of a struct, you should assign the struct directly rather than writing a separate line of code for copying each field.
+

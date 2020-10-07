@@ -1,0 +1,30 @@
+#############################
+# CSE 333 19su HW4 Feedback #
+#############################
+
+UW NetID: yh0608
+
+Test Suite: 140.0/140.0
+  (-0.0) Correct
+
+Valgrind: 5.0/5.0
+  (-0.0) No valgrind warnings
+
+cpplint: 5.0/5.0
+  (-0.0) No cpplint warnings
+
+Modularity: 5.0/5.0
+  (-0.0) Correct
+
+Robustness and Error Checking: 7.0/10.0
+  (-1.0) FileReader.cc: Does not check IsPathSafe(basedir_, fullfile). [FileReader.cc] 
+  (-1.0) HttpServer: HttpServer_ThrFn sets done=true if GetNextRequest fails, but keeps going.
+  (-1.0) HttpServer: Does not sanitize HTML (i.e. XSS security vulnerability)". Should EscapeHtml in ProcessQueryRequest.
+
+Comments, Blending with Starter Code, and Other Style Issues: 5.0/5.0
+  (-0.0) Correct
+
+333gle Server Test: 13.0/20.0
+  (-5.0) Says "No results found" for any multiple-word query.
+  (-2.0) Bikapalooza page does not fully load.
+
