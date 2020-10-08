@@ -1,1 +1,1 @@
-This is a course project, related information can be found [here] (https://courses.cs.washington.edu/courses/cse333/19su/assignments/homework/hw4.html).
+This is a course project, related information can be found **[here](https://courses.cs.washington.edu/courses/cse333/19su/assignments/homework/hw4.html)**.
